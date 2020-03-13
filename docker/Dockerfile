@@ -1,5 +1,5 @@
 FROM scalecommerce/dev-php:7.3.14-v6
-ENV DOCROOT=/var/www/dev-php \
+ENV DOCROOT=/var/www/dev-php/current \
     SERVERNAME=icehrm.local
 
 RUN apt-get update --yes && apt-get install software-properties-common --yes && add-apt-repository ppa:ondrej/php && apt-get update
